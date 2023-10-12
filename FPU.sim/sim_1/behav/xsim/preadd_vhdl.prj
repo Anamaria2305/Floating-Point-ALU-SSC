@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FPU.srcs/sources_1/new/PreAdder.vhd" \
+"../../../../FPU.srcs/sim_1/new/preadd.vhd" \
+
+# Do not sort compile order
+nosort
